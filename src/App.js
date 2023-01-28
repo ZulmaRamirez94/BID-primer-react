@@ -1,19 +1,15 @@
 import './App.css';
 import { Component } from 'react';
+import Titulo from './Componentes/titulo';
+import Listado from './Componentes/listado';
 
 
 class App extends Component {
   render() {
     return (
       <>
-        <h1 > Hello Dojo! </h1>
-        <p>Things  I need to do:</p>
-        <ul>
-          <li > * Learn React</li>
-          <li> * Climb Mt. Everest</li>
-          <li> * Run a marathon</li>
-          <li> * Feed the dogs</li>
-        </ul>
+        <Titulo/>
+        <Listado/>
       </>
     );
   }
